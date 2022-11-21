@@ -1,0 +1,59 @@
+
+
+/* The animation code */
+@keyframes catvibing {
+    from {
+        top: 0;
+        transform: rotate(0);
+    }
+    50% {
+        left: calc(100% - 207px);
+    }
+
+    to {
+        top: calc(100% - 207px);
+
+        transform: rotate(580deg);
+    }
+}
+
+#catvibing {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 10%;
+    animation-name: catvibing;
+}
+
+#catpiano {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15%;
+}
+
+#catvibing,
+#catpiano {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+button {
+    z-index: 1001;
+    position: absolute;
+    top: 5%;
+    width: 10%;
+    height: 6%;
+    background-color: rgb(230, 230, 230);
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#table {
+    position: absolute;
+    z-index: 1001;
+    width: 35%;
+    top: 21%;
+    left: 25%;
+    transform: scaleX(-1) rotate(-10deg);
+}
