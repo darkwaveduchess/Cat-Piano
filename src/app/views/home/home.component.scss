@@ -1,32 +1,30 @@
-
-
 form {
-    
-    background-color: rgb(108, 107, 107);
-    font-size: 300%;
-    border-color: palevioletred;
-    overflow: hidden;
-
+  background-color: rgb(108, 107, 107);
+  font-size: 300%;
+  border-color: palevioletred;
+  margin: 0 auto;
+  width: min-content;
+  padding: 20px;
 }
 
 body {
-    background-color: rgb(194, 147, 115);
+  background-color: rgb(194, 147, 115);
 }
 
 select:hover {
-    background-color: rgba(255, 112, 245, 0.699);
+  background-color: rgba(255, 112, 245, 0.699);
 }
-
 
 h1 {
-    background-color: rgb(255, 116, 116);
-    color: white;
-    text-align: center;
-    font-size: 500%;
-    font-style: oblique ;
+  background-color: rgb(255, 116, 116);
+  color: white;
+  text-align: center;
+  font-size: 500%;
+  font-style: oblique;
 }
 
-div {
-    height: 100%;
-    background-color: black;
+#home {
+  height: 100%;
+  background-color: black;
+  background-image: url(../../../assets/imgs/background.gif);
 }
