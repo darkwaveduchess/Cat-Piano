@@ -17,6 +17,12 @@ export class AppComponent implements OnInit {
 
   playSound(event: any) {
     let nota: string = event.key;
+
+    if (["a","b","c","d","e","f","g"].indexOf(nota) == -1)
+      return; 
+
+
+
     var scales: any = {
       "g": { "f": "f#" }
     }
