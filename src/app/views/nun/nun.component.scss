@@ -1,5 +1,168 @@
 #nun {
-    background-color: rgb(24, 22, 22);
+
+    background-color: rgb(28, 13, 13);
+}
+
+#notes {
+    color: black;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url(../../../assets/imgs/papel.jpg);
+    background-size: cover;
+    width: 125px;
+    margin: 6px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: inherit;
+
+
+}
+
+
+#catpiano {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+    margin: 0;
+}
+
+#MUSIC {
+    right:0;
+    width: 10PX;
+    margin: 0;
+}
+
+.meowbutton {
+    position: absolute;
+    right: 1%;
+    bottom: 25%;
+    width: 9%;
+    margin: 0;
+    padding: 50px 50px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(../../../assets/imgs/button.jpg);
+    background-size: cover;
+    box-shadow: 0 7px #666;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.meowbutton:hover {
+
+    background-color: #3e8e41
+}
+
+.meowbutton:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(62, 55, 55);
+    transform: translateY(4px);
+}
+
+.buttonhome {
+
+    position: absolute;
+    right: 1%;
+    bottom: 5%;
+    width: 9%;
+    margin: 0;
+    padding: 50px 50px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(../../../assets/imgs/homebutton.jpg);
+    background-size: cover;
+    box-shadow: 0 7px #666;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+.buttonhome:hover {
+
+    background-color: #3e8e41
+}
+
+.buttonhome:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(62, 55, 55);
+    transform: translateY(4px);
+}
+
+.buttonlink {
+
+    position: absolute;
+    right: 1%;
+    bottom: 45%;
+    width: 9%;
+    margin: 0;
+    padding: 50px 50px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(../../../assets/imgs/backgroundfreira.png);
+    background-size: cover;
+    box-shadow: 0 7px #666;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+.buttonlink:hover {
+
+    background-color: #3e8e41
+}
+
+.buttonlink:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(62, 55, 55);
+    transform: translateY(4px);
+}
+
+.buttongrimes {
+
+    position: absolute;
+    right: 1%;
+    bottom: 65%;
+    width: 9%;
+    margin: 0;
+    padding: 50px 50px;
+    cursor: pointer;
+    text-align: center;
+    background-image: url(../../../assets/imgs/OIP.jpg);
+    background-size: cover;
+    box-shadow: 0 7px #666;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+
+.buttongrimes:hover {
+
+    background-color: #3e8e41
+}
+
+.buttongrimes:active {
+
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(62, 55, 55);
+    transform: translateY(4px);
+}
+
+#meow {
+    width: 10px;
+    height: 10px;
 }
 
 body {
@@ -56,44 +219,44 @@ body {
 }
 
 .bkey:nth-child(1) {
-   left: 48px;
+    left: 48px;
 }
 
 .bkey:nth-child(2) {
     left: 117px;
- }
+}
 
- .bkey:nth-child(3) {
+.bkey:nth-child(3) {
     left: 253px;
- }
+}
 
- .bkey:nth-child(4) {
+.bkey:nth-child(4) {
     left: 320px;
- }
+}
 
- .bkey:nth-child(5) {
+.bkey:nth-child(5) {
     left: 389px;
- }
+}
 
- .bkey:nth-child(6) {
+.bkey:nth-child(6) {
     left: 525px;
- }
+}
 
- .bkey:nth-child(7) {
+.bkey:nth-child(7) {
     left: 594px;
- }
+}
 
- .bkey:nth-child(8) {
+.bkey:nth-child(8) {
     left: 662px;
- }
+}
 
- .bkey:nth-child(9) {
+.bkey:nth-child(9) {
     left: 797px;
- }
+}
 
- .bkey:nth-child(10) {
+.bkey:nth-child(10) {
     left: 865px;
- }
+}
 
 #hand {
     width: 150px;
@@ -101,4 +264,3 @@ body {
     bottom: 0;
 
 }
- 
