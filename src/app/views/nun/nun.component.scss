@@ -6,15 +6,26 @@
 #notes {
     color: black;
     left: 0;
-    bottom: 0;
+    top: 15.4%;
     position: absolute;
     background-image: url(../../../assets/imgs/papel.jpg);
     background-size: cover;
     width: 125px;
-    margin: 6px;
+    margin: 0;
     text-transform: uppercase;
     font-size: 15px;
     font-style: inherit;
+    width: 119px;
+    height: 100%;
+
+}
+
+#borda {
+    position: absolute;
+    background-color: rgb(130, 130, 130);
+    height:100%;
+    right:0;
+    width: 128px;
 
 
 }
@@ -24,15 +35,19 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 10%;
+    width: 121px;
     margin: 0;
 }
 
-#MUSIC {
-    right:0;
-    width: 10PX;
-    margin: 0;
+#image {
+    position: absolute;
+    right:37px;
+    top: 15px;
+    width: fit-content;
+    width: 75px;
+    height: 75px;
 }
+
 
 .meowbutton {
     position: absolute;
