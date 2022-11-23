@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
 
-    document.addEventListener('keydown', this.playSound)
+    //document.addEventListener('keydown', this.playSound)
 
   }
 
