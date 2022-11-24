@@ -8,7 +8,7 @@
     left: 0;
     top: 15.4%;
     position: absolute;
-    background-image: url(../../../assets/imgs/papel.jpg);
+    background-color: white;
     background-size: cover;
     width: 125px;
     margin: 0;
@@ -231,6 +231,7 @@ body {
 
 .key {
     text-align: center;
+    cursor: pointer;
 }
 
 .bkey:nth-child(1) {
@@ -274,7 +275,7 @@ body {
 }
 
 #hand {
-    width: 150px;
+    width: 120px;
     position: absolute;
     bottom: 0;
 

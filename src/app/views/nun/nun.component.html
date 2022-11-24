@@ -20,36 +20,35 @@
 
         <div id="piano">
 
-            <div class="keys">
+            <div class="keys" (click)="playKey($event)">
                 <div class="bkeys">
-                    <div class="key bkey" (click)="playKey($event)">0</div>
-                    <div class="key bkey" (click)="playKey($event)">1</div>
-                    <div class="key bkey" (click)="playKey($event)">2</div>
-                    <div class="key bkey" (click)="playKey($event)">3</div>
-                    <div class="key bkey" (click)="playKey($event)">4</div>
-                    <div class="key bkey" (click)="playKey($event)">5</div>
-                    <div class="key bkey" (click)="playKey($event)">6</div>
-                    <div class="key bkey" (click)="playKey($event)">7</div>
-                    <div class="key bkey" (click)="playKey($event)">8</div>
-                    <div class="key bkey" (click)="playKey($event)">9</div>
+                    <div class="key bkey">0</div>
+                    <div class="key bkey">1</div>
+                    <div class="key bkey">2</div>
+                    <div class="key bkey">3</div>
+                    <div class="key bkey">4</div>
+                    <div class="key bkey">5</div>
+                    <div class="key bkey">6</div>
+                    <div class="key bkey">7</div>
+                    <div class="key bkey">8</div>
+                    <div class="key bkey">9</div>
                 </div>
 
-
                 <div class="wkeys">
-                    <div class="key wkey" (click)="playKey($event)">Q</div>
-                    <div class="key wkey" (click)="playKey($event)">W</div>
-                    <div class="key wkey" (click)="playKey($event)">E</div>
-                    <div class="key wkey" (click)="playKey($event)">R</div>
-                    <div class="key wkey" (click)="playKey($event)">T</div>
-                    <div class="key wkey" (click)="playKey($event)">Y</div>
-                    <div class="key wkey" (click)="playKey($event)">U</div>
-                    <div class="key wkey" (click)="playKey($event)">I</div>
-                    <div class="key wkey" (click)="playKey($event)">O</div>
-                    <div class="key wkey" (click)="playKey($event)">P</div>
-                    <div class="key wkey" (click)="playKey($event)">A</div>
-                    <div class="key wkey" (click)="playKey($event)">S</div>
-                    <div class="key wkey" (click)="playKey($event)">D</div>
-                    <div class="key wkey" (click)="playKey($event)">F</div>
+                    <div class="key wkey">Q</div>
+                    <div class="key wkey">W</div>
+                    <div class="key wkey">E</div>
+                    <div class="key wkey">R</div>
+                    <div class="key wkey">T</div>
+                    <div class="key wkey">Y</div>
+                    <div class="key wkey">U</div>
+                    <div class="key wkey">I</div>
+                    <div class="key wkey">O</div>
+                    <div class="key wkey">P</div>
+                    <div class="key wkey">A</div>
+                    <div class="key wkey">S</div>
+                    <div class="key wkey">D</div>
+                    <div class="key wkey">F</div>
                 </div>
             </div>
 
@@ -61,12 +60,8 @@
         
 
         <div id="meow">
-            <button class="meowbutton"></button>
-            <button class="buttonhome"></button>
-            <button class="buttonlink"></button>
-            <button class="buttongrimes"></button>
-
-
+            <button (click)="playMeow()" class="meowbutton"></button>
+            <a class="buttonhome" href="/home"></a>
         </div>
 
 
