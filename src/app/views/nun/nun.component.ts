@@ -9,8 +9,11 @@ import * as Tone from 'tone';
 
 export class NunComponent implements OnInit {
 
+  musicx: string = "";
+
   ngOnInit(): void {
-    document.addEventListener('keydown', this.playKey)
+    document.addEventListener('keydown', this.playKey);
+    this.musicx = window.location.pathname.split('/')[2];
   }
 
   playKey(event: any): void {
@@ -26,10 +29,10 @@ export class NunComponent implements OnInit {
     var key: any = null;
     let note: string;
 
-    if (event.type === 'click'){
+    if (event.type === 'click') {
       key = event.target;
       var value = (key.textContent + "").toLowerCase()
-      note = keyMap[value??"q"];
+      note = keyMap[value ?? "q"];
     }
     else {
       note = keyMap[event.key];
@@ -46,11 +49,11 @@ export class NunComponent implements OnInit {
     }
 
     //Mover mao
-    if(key != null){
+    if (key != null) {
       var keyX = key.getBoundingClientRect().left;
       var hand = document.getElementById("hand");
       if (hand != null)
-      hand.style.left = keyX - 30 + "px";
+        hand.style.left = keyX - 30 + "px";
     }
 
     //Tocar nota
@@ -60,7 +63,7 @@ export class NunComponent implements OnInit {
     synth.triggerRelease([note], now + 1)
   }
 
-  playMeow(){
+  playMeow() {
     var meow = new Audio("../../../assets/imgs/meow.wav");
     meow.play();
   }
