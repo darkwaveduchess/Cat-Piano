@@ -5,43 +5,46 @@
 
 #notes {
     color: black;
-    left: 0;
-    top: 16%;
+    right: 0;
+    top: 20%;
     position: absolute;
-    background-color: white;
+    background-color: rgb(204, 174, 165);
     background-size: cover;
-    width: 125px;
-    margin: 0;
+    width: 120px;
+    border-radius: 6px;
+    margin: 3px;
     text-transform: uppercase;
     font-size: 15px;
     font-style: inherit;
-    width: 119px;
-    height: 100%;
+    width: 125px;
+    height: 70%;
+
 
 }
 
 #borda {
     position: absolute;
-    background-color: rgb(130, 130, 130);
+    background-color: rgb(66, 58, 58);
     height:100%;
-    right:0;
-    width: 128px;
+    left:0;
+    width: 120px;
 
 
 }
 
 
 #catpiano {
+    border-radius: 6px;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: 121px;
-    margin: 0;
+    margin: 6px;
 }
 
 #image {
     position: absolute;
-    right:37px;
+    left:24px;
     top: 15px;
     width: fit-content;
     width: 75px;
@@ -51,11 +54,12 @@
 
 .meowbutton {
     position: absolute;
-    right: 1%;
+    left: 0.6px;
     bottom: 25%;
     width: 9%;
     margin: 0;
     padding: 50px 50px;
+    border: rgb(23, 23, 23);
     cursor: pointer;
     text-align: center;
     background-image: url(../../../assets/imgs/button.jpg);
@@ -67,14 +71,7 @@
     border-bottom-left-radius: 50% 50%;
 }
 
-.meowbutton:hover {
-
-    background-color: #3e8e41
-}
-
 .meowbutton:active {
-
-    background-color: #3e8e41;
     box-shadow: 0 5px rgb(62, 55, 55);
     transform: translateY(4px);
 }
@@ -82,7 +79,8 @@
 .buttonhome {
 
     position: absolute;
-    right: 1%;
+    left: 0.6px;
+    border: rgb(23, 23, 23);
     bottom: 5%;
     width: 9%;
     margin: 0;
@@ -99,14 +97,7 @@
 
 }
 
-.buttonhome:hover {
-
-    background-color: #3e8e41
-}
-
 .buttonhome:active {
-
-    background-color: #3e8e41;
     box-shadow: 0 5px rgb(62, 55, 55);
     transform: translateY(4px);
 }
@@ -114,7 +105,7 @@
 .buttonlink {
 
     position: absolute;
-    right: 1%;
+    left: 1%;
     bottom: 45%;
     width: 9%;
     margin: 0;
@@ -146,7 +137,7 @@
 .buttongrimes {
 
     position: absolute;
-    right: 1%;
+    left: 1%;
     bottom: 65%;
     width: 9%;
     margin: 0;
