@@ -39,7 +39,7 @@
     right: 0;
     top: 0;
     width: 121px;
-    margin: 6px;
+    margin: 8px;
 }
 
 #image {
@@ -50,6 +50,7 @@
     width: 75px;
     height: 75px;
 }
+
 
 
 .meowbutton {
@@ -69,6 +70,10 @@
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
+}
+
+.meowbutton:hover {
+    opacity: 0.9;
 }
 
 .meowbutton:active {
@@ -97,74 +102,15 @@
 
 }
 
+.buttonhome:hover {
+        opacity: 0.9;
+}
+
 .buttonhome:active {
     box-shadow: 0 5px rgb(62, 55, 55);
     transform: translateY(4px);
 }
 
-.buttonlink {
-
-    position: absolute;
-    left: 1%;
-    bottom: 45%;
-    width: 9%;
-    margin: 0;
-    padding: 50px 50px;
-    cursor: pointer;
-    text-align: center;
-    background-image: url(../../../assets/imgs/backgroundfreira.png);
-    background-size: cover;
-    box-shadow: 0 7px #666;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-
-}
-
-.buttonlink:hover {
-
-    background-color: #3e8e41
-}
-
-.buttonlink:active {
-
-    background-color: #3e8e41;
-    box-shadow: 0 5px rgb(62, 55, 55);
-    transform: translateY(4px);
-}
-
-.buttongrimes {
-
-    position: absolute;
-    left: 1%;
-    bottom: 65%;
-    width: 9%;
-    margin: 0;
-    padding: 50px 50px;
-    cursor: pointer;
-    text-align: center;
-    background-image: url(../../../assets/imgs/OIP.jpg);
-    background-size: cover;
-    box-shadow: 0 7px #666;
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-
-}
-
-.buttongrimes:hover {
-
-    background-color: #3e8e41
-}
-
-.buttongrimes:active {
-
-    background-color: #3e8e41;
-    box-shadow: 0 5px rgb(62, 55, 55);
-    transform: translateY(4px);
-}
 
 #meow {
     width: 10px;
@@ -180,12 +126,14 @@ body {
     align-content: center;
 }
 
+
 #piano {
     height: 290px;
     padding: 90px 30px 0 30px;
     background-image: url(../../../assets/imgs/madeira2.jpg);
     border-radius: 10px;
 }
+
 
 .keys {
     position: relative;
@@ -266,8 +214,8 @@ body {
 }
 
 #hand {
+    opacity:100%;
     width: 120px;
     position: absolute;
     bottom: 0;
-
 }

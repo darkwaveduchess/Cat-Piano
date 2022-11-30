@@ -35,6 +35,12 @@ export class NunComponent implements OnInit {
       note = keyMap[value ?? "q"];
     }
     else {
+      if(event.keyCode == 32){        
+        var meow = new Audio("../../../assets/imgs/meow.wav");
+        meow.play();
+        return;
+      }
+
       note = keyMap[event.key];
 
       var aTags = document.getElementsByClassName("key");
@@ -67,6 +73,8 @@ export class NunComponent implements OnInit {
     var meow = new Audio("../../../assets/imgs/meow.wav");
     meow.play();
   }
+
+  
 
 }
 
